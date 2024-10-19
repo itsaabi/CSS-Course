@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.pad {
+    height: 100px;
+    width: 100px;
+
+    /* Distance between content and border is called Padding */
+    padding: 10px;
+
+    /* Distance between Webpage and border is called Margin */
+    margin: 15px;
+    background-color: darksalmon;
+    border: 2px dashed rgb(82, 17, 17);
+    border-radius: 30px;
+}
