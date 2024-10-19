@@ -1,0 +1,23 @@
+/* Text Align */
+
+.box1{
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    background-color: yellowgreen;
+    margin: 10px;
+}
+.box2{
+    text-align: left;
+    height: 40px;
+    width: 50px;
+    background-color: rgb(205, 107, 50);
+    margin: 10px;
+}
+.box3{
+    text-align: right;
+    height: 40px;
+    width: 50px;
+    background-color: rgb(50, 156, 205);
+    margin: 10px;
+}
