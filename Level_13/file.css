@@ -1,0 +1,76 @@
+/* Text-Decoration Property */
+
+.box {
+    /* Overline, Line-through */
+    text-decoration: underline;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(108, 107, 189);
+}
+
+#box1{
+    /* Text-Decoration Property (style) */
+    text-decoration-style: dotted;
+
+    /* Font Property (font-size) */
+    font-size: 10px;
+
+    /* Text-Transform Property */
+    text-transform: lowercase;
+
+    /* Text-Decoration Property (color) */
+    text-decoration-color: crimson;
+}
+#box2{
+     /* Text-Decoration Property (style) */
+    text-decoration-style: dashed;
+
+    /* Font Property (font-weight) */
+    font-weight: 900;
+
+     /* Text-Transform Property */
+     text-transform: uppercase;
+
+    /* Text-Decoration Property (color) */
+    text-decoration-color: rgb(20, 220, 203);
+}
+#box3{
+     /* Text-Decoration Property (style) */
+    text-decoration-style: solid;
+
+    /* Font Property (font-style) */
+    font-style: italic;
+
+     /* Text-Transform Property */
+     text-transform: capitalize;
+
+    /* Text-Decoration Property (color) */
+    text-decoration-color: rgb(177, 220, 20);
+}
+#box4{
+     /* Text-Decoration Property (style) */
+    text-decoration-style: double;
+
+     /* Text-Transform Property */
+     text-transform: none;
+
+    /* Text-Decoration Property (color) */
+    text-decoration-color: rgb(220, 20, 130);
+
+}
+#box5{
+     /* Text-Decoration Property (style) */
+    text-decoration-style: wavy;
+
+    /* Text-Decoration Property (color) */
+    text-decoration-color: rgb(203, 20, 220);
+
+}
+.lorem{
+    /* Font Family */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* Line Height */
+    line-height: 30px;
+}
