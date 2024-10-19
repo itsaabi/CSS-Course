@@ -7,11 +7,25 @@
     width: 100px;
 
     /* Distance between content and border is called Padding */
-    padding: 10px;
+    padding: 10px 19px 20px 5px;
 
     /* Distance between Webpage and border is called Margin */
-    margin: 15px;
+    margin: 15px 30px 20px 50px;
     background-color: darksalmon;
     border: 2px dashed rgb(82, 17, 17);
     border-radius: 30px;
+}
+
+#pad1{
+     box-sizing: border-box;
+     height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: darksalmon;
+}
+#pad2{
+    box-sizing: content-box;
+    height: 100px;
+    width: 100px;
+    background-color: darksalmon;
 }
