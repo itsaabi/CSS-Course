@@ -1,0 +1,14 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#new {
+    font-size: 25px;
+}
+#another {
+    font-size: 10px;
+}
