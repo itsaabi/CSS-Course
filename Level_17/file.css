@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 251, 0);
+}
+.container{
+    height: 500px;
+    width: 700px;
+    border: 3px double red;
+    margin-left: 30px;
+    bottom: 10px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid rebeccapurple;
+
+}
+#box1 {
+    background-color: aqua;
+    float: right;
+}
+
+#box2 {
+    background-color: rgb(196, 255, 247);
+    float: left;
+}
+#box3 {
+    background-color: burlywood;
+    float: left;
+}
+#box4 {
+    background-color: chocolate;
+    float: right;
+}
