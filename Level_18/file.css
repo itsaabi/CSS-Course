@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: gold;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    border: 3px dashed rgb(58, 33, 0);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rebeccapurple;
+}
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: beige;
+}
+#box3 {
+    background-color: brown;
+}
+#box4 {
+    background-color: coral;
+}
+
+
+.container1{
+    height: 600px;
+    width: 600px;
+    border: 3px dashed rgb(58, 33, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    float: right;
+    align-items: center;
+    
+    
+    
+}
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rebeccapurple;
+}
+#box5 {
+    background-color: aqua;
+    align-self: baseline;
+}
+#box6 {
+    background-color: beige;
+}
+#box7 {
+    background-color: brown;
+    align-self: flex-end;
+}
+#box8 {
+    background-color: coral;
+}
+
+
+.container2{
+    height: 600px;
+    width: 600px;
+    border: 3px double rgb(184, 135, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 2px solid rebeccapurple;
+}
+#box9 {
+    background-color: aqua;
+    order: 12;
+}
+#box10 {
+    background-color: beige;
+}
+#box11 {
+    background-color: brown;
+    
+}
+#box12 {
+    background-color: coral;
+    order: 9;
+}
+#box13 {
+    background-color: aqua;
+    flex-shrink: 2;
+}
+#box14 {
+    background-color: beige;
+    flex-grow: 1;
+}
+#box15 {
+    background-color: brown;
+}
+#box16 {
+    background-color: coral;
+    order: 13;
+}
