@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: gold;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  border: 2px solid rebeccapurple;
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .container {
+    height: 470px;
+    width: 470px;
+    border: 3px dashed rgb(58, 33, 0);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+  }
+
+  #box1 {
+    background-color: aqua;
+  }
+  #box2 {
+    background-color: beige;
+  }
+  #box3 {
+    background-color: brown;
+  }
+  #box4 {
+    background-color: coral;
+  }
+}
